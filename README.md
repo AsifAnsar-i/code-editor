@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+Simple Code Editor in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2024-06-28 160233](https://github.com/AsifAnsar-i/code-editor/assets/91591849/9b9da8dd-2b16-49c9-b6ec-b90b50d981ef)
 
-## Available Scripts
+This project is a simple code editor built using React. It leverages PrismJS for syntax highlighting and provides a basic interface for writing and viewing code with real-time syntax highlighting.
 
-In the project directory, you can run:
+Features
+Real-time syntax highlighting using PrismJS
+Basic code editor functionality with a textarea element
+Synchronized scrolling between the textarea and highlighted code
+Technologies Used
+React: JavaScript library for building user interfaces
+PrismJS: Lightweight library for syntax highlighting
+prism-react-renderer: React implementation of PrismJS for rendering syntax-highlighted code
+Getting Started
+Prerequisites
+Make sure you have the following installed on your machine:
 
-### `npm start`
+Node.js
+npm (Node Package Manager) or yarn
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/react-simple-code-editor.git
+Navigate to the project directory:
+bash
+Copy code
+cd react-simple-code-editor
+Install dependencies:
+Using npm:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+Using yarn:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+yarn install
+Running the Application
+Start the development server:
 
-### `npm test`
+Using npm:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+npm start
+Using yarn:
 
-### `npm run build`
+bash
+Copy code
+yarn start
+Open your browser and go to http://localhost:3000 to see the code editor in action.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Usage
+Type your code in the textarea on the page.
+The code will be syntax-highlighted in real-time.
+The textarea and the highlighted code will scroll together to keep the view synchronized.
+Code Structure
+src/App.js: Main application component that renders the CodeEditor component.
+src/CodeEditor.js: Component that implements the code editor with syntax highlighting.
+src/App.css: Basic styling for the application.
+Customization
+You can customize the appearance and behavior of the code editor by modifying the styles and configuration in CodeEditor.js and App.css.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Known Issues
+Cursor misalignment can occur if the textarea and pre element styles are not perfectly synchronized.
+Ensure that the fonts, padding, margin, and line height are identical for both elements.
+Contributing
+Contributions are welcome! If you have suggestions for improvements or find any issues, please feel free to create an issue or submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+PrismJS for providing the syntax highlighting functionality.
+prism-react-renderer for the React implementation of PrismJS.
