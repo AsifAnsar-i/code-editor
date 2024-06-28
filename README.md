@@ -19,40 +19,17 @@ Make sure you have the following installed on your machine:
 Node.js
 npm (Node Package Manager) or yarn
 Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/react-simple-code-editor.git
-Navigate to the project directory:
-bash
-Copy code
-cd react-simple-code-editor
-Install dependencies:
-Using npm:
+Clone the repository
 
-bash
-Copy code
-npm install
-Using yarn:
+Navigate to the project directory
 
-bash
-Copy code
-yarn install
+Install dependencies
+
 Running the Application
 Start the development server:
 
-Using npm:
-
-bash
-Copy code
-npm start
-Using yarn:
-
-bash
-Copy code
-yarn start
+Start the server using npm start or yarn start.
 Open your browser and go to http://localhost:3000 to see the code editor in action.
-
 Usage
 Type your code in the textarea on the page.
 The code will be syntax-highlighted in real-time.
